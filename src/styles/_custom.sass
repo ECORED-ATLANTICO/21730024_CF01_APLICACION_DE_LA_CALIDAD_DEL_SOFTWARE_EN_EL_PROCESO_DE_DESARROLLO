@@ -2,31 +2,193 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 30%
+    left: 5%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 31%
+    right: 0%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 61%
+    left: 20%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+
 .banner-principal .tarjeta
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 400px !important
+  padding: 3rem 0 0 0 !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
+
+.banner-interno
+  &__fondo
+    background-image: url('../assets/curso/banner-secundario.jpg')!important
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
 figcaption
   font-weight: normal
+
+.rounded-md
+  border-radius: 10rem
+
+// ---------------- Backgrounds
+.bg01
+  background-color: $color-primario
+.bg02
+  background-color: $color-secundario
+.bg03
+  background-color: $color-acento-botones
+.bg-secundario-20
+  background: rgba($color-secundario,0.2)
+.bg-acento-contenido-20
+  background: rgba($color-acento-contenido,0.1)
+.bg-blue
+  background-image: url('../assets/curso/temas/tema3/img_07.png')
+  background-size: cover
+  background-repeat: no-repeat
+.bg-lightblue
+  background-image: url('../assets/curso/temas/tema4/img_06.png')
+  background-size: cover
+  background-repeat: no-repeat
+
+// ---------------- Colors
+.text-white
+  color: $white
+
+// ---------------- Tabla Style 1
+.style01
+  td, th
+    border-width: 1px
+    border-color: $color-primario
+    padding: 0.5rem
+
+.slyder-f
+  i
+    color: $color-secundario
+    font-size: 3em
+
+.titulo-sexto
+  border-color: $color-acento-contenido
+
+table
+  min-width: 100% !important
+
+.tarjeta-horz
+  display: flex
+  flex-direction: column
+  align-items: center
+  img
+
+  div
+    width: 75%
+    margin: -2em 0 auto 0
+    padding: 1.5em
+    box-shadow: 0 2px 5px rgba(0,0,0,0.17)
+    border-radius: 0.5em
+    background: $white
+    z-index: 10
+    position: relative
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones!important
+.slyder-a__bullets__item
+  background-color: $color-acento-botones
+.slyder-a__bullets__item--active
+  background-color: $gray
+
+.tabs-a__tab
+  background-color: #e8e8e8
+
+.acordion
+  .acordion__activo
+    background-color: rgba($color-secundario,0.2)
+
+.avatar
+  position: absolute
+  bottom: 0px
+  right: -4rem
+  z-index: 1
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 15rem
+  & > *
+    position: relative
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #F6F6F6
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.slyder-f.bg-lightblue, .slyder-f
+  i.fas
+    color: $color-acento-botones!important
+    font-size: 2em!important
+
+.cajon.color-acento-contenido
+  background-color: rgba($color-acento-contenido,0.1)
+
+.tarjeta-avatar
+  height: 100%
+  position: relative
+  padding-top: $tarjeta-avatar-ancho-img / 2
+  & > img
+    position: absolute
+    left: 50%
+    top: 0
+    transform: translateX(-50%)
+    display: block
+    width: $tarjeta-avatar-ancho-img
+    margin: 0 auto
+
+  .tarjeta
+    display: inline-block
+    padding-top: 60px !important
+    height: 100%
+    i
+      font-size: 1em
+      color: $black
+
+.img-sintesis
+  max-width: none
+  width: 100%
