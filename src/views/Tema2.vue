@@ -1,11 +1,11 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bg05
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Ciclo de vida del software
 
     div.tarjeta-horz
       img(src='@/assets/curso/temas/tema2/img_01.png', alt='Imagen decorativa')
@@ -16,42 +16,49 @@
 
     separador 
 
-    div.mb-4(data-aos="fade-right")
+    div.mb-5(data-aos="fade-right")
         h3.position-relative#t_2_1 2.1	Fases: requerimientos, diseño, codificación, pruebas, validación, mantenimiento
           img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
     
     .row
-      .col-md-8.col-lg-4.mb-3.col-10.mx-auto
+      .col-md-8.col-lg-3.mb-3.col-10.mx-auto
         figure
           img(src="@/assets/curso/temas/tema2/img_02.png", alt="Imagen decorativa").mx-auto
-      .col-md-12.col-lg-8.mb-3
+      .col-md-12.col-lg-9.mb-3
         p El proceso inicia con la definición de requerimientos, en donde se identifican las necesidades del cliente y se establecen los objetivos del producto. Posteriormente, en la fase de diseño se define la arquitectura y se planifica la estructura del 
           i software. 
           | La codificación consiste en la implementación del diseño a través del desarrollo del código, fase en la que se aplican buenas prácticas para garantizar un código limpio. Durante la etapa de pruebas se ejecutan evaluaciones para identificar errores y asegurar la funcionalidad. La validación permite comprobar que el producto cumple con los requerimientos establecidos, y el mantenimiento se encarga de las actualizaciones y correcciones posteriores a la entrega.
      
     separador 
 
-    div.mb-4(data-aos="fade-right")
+    div.mb-5(data-aos="fade-right")
         h3.position-relative#t_2_2 2.2	Herramientas de revisión y auditoría
           img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
-
+    
+    .row
+      .col-md-2.col-lg-1.mb-3.col-4.mx-auto
+        figure
+          img(src="@/assets/curso/temas/tema2/img_03.svg", alt="Imagen decorativa").mx-auto
+      .col-md-12.col-lg-11.mb-3
+        p Para asegurar la calidad durante cada fase, se emplean diversas herramientas de revisión y auditoría, tales como sistemas de control de versiones, software de análisis estático de código y listas de chequeo para la revisión de requisitos y documentación. Estas herramientas permiten detectar inconsistencias, mejorar la calidad del código y garantizar el cumplimiento de las normativas vigentes en la industria.
+     
     .row.d-flex.mb-5
-      .col-md-6.d-flex.flex-column.mb-3.mb-md-0
+      .col-lg-6.col-md-12.d-flex.flex-column.mb-3.mb-lg-0
         .tarjeta.bg-secundario-20.p-4.d-flex.flex-column.justify-content-center.flex-grow-1
           .row.align-items-center
             .col-md-2
               figure
-                img(src="@/assets/curso/temas/tema2/img_04.svg", alt="Imagen decorativa").mx-auto.w-auto
+                img(src="@/assets/curso/temas/tema2/img_04.svg", alt="Imagen decorativa").mx-auto.w-auto.mb-3
             .col-md-10
               p.mb-0
                 b Revisión de código: 
                 | herramientas como SonarQube detectan vulnerabilidades como SQL injection.
-      .col-md-6.d-flex.flex-column
+      .col-lg-6.col-md-12.d-flex.flex-column
         .tarjeta.bg-secundario-20.p-4.d-flex.flex-column.justify-content-center.flex-grow-1
           .row.align-items-center
             .col-md-2
               figure
-                img(src="@/assets/curso/temas/tema2/img_05.svg", alt="Imagen decorativa").mx-auto.w-auto
+                img(src="@/assets/curso/temas/tema2/img_05.svg", alt="Imagen decorativa").mx-auto.w-auto.mb-3
             .col-md-10
               p.mb-0
                 b Auditorías de procesos: 

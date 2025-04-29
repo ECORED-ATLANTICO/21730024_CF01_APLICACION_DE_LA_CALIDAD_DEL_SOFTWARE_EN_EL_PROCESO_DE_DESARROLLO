@@ -22,7 +22,13 @@
     transform: translateY(0px)
 
 .banner-principal .tarjeta
-  background-position: left 50% !important
+  background-position: left 50%
+  @media (max-width: 425px)
+    background-position: 35% 50%
+    padding: 1em 1.5em
+  @media (max-width: 768px)
+    padding: 1em 12em 1em 1em
+    background-position: 15% 50%
 
 .banner-principal__row .banner-principal__img
   width: 400px !important
@@ -51,6 +57,17 @@ figcaption
   background-color: $color-secundario
 .bg03
   background-color: $color-acento-botones
+.bg04
+  background-image: url('../assets/curso/temas/tema1/img_05.png')
+  background-size: contain
+  background-position-y: 58rem
+  background-repeat: no-repeat
+.bg05
+  background-image: url('../assets/curso/temas/tema2/img_07.png')
+  background-size: contain
+  background-position-y: 18rem
+  background-repeat: no-repeat
+
 .bg-secundario-20
   background: rgba($color-secundario,0.2)
 .bg-acento-contenido-20
@@ -111,6 +128,13 @@ table
 
 .tabs-a__tab
   background-color: #e8e8e8
+
+.tabs-a__content-item--active
+  display: flex
+  height: 100%
+  > div
+    height: 100%
+    display: flex
 
 .acordion
   .acordion__activo
@@ -192,3 +216,10 @@ table
 .img-sintesis
   max-width: none
   width: 100%
+
+.crd--avatarHorizontal
+  margin-right: 4em
+
+.avatar
+  @media (max-width: 768px)
+    top: 0

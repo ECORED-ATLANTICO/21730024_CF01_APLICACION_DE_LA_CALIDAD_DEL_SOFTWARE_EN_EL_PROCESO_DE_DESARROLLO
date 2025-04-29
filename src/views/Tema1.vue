@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bg04
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
@@ -25,8 +25,9 @@
 
         separador
 
-      div.mb-4
-        div.mb-4(data-aos="fade-right")
+      
+      div.mb-5
+        div.mb-5(data-aos="fade-right")
           h3.position-relative#t_1_1 1.1	Factores clave: análisis, pruebas, código limpio, refactorización
             img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
@@ -34,7 +35,7 @@
           i software 
           | cumpla con sus funciones, minimizando errores en producción. Asimismo, la elaboración de un código limpio, organizado, legible y documentado facilita la identificación y solución de errores, mientras que la refactorización consiste en la reestructuración del código sin alterar su funcionalidad para mejorar su mantenimiento y rendimiento. A continuación, se presenta un ejemplo de tabla que resume estos factores:
 
-        .row.mb-5
+        .row.mb-0
           .col-lg-10.mb-2.mx-auto
             .titulo-sexto.bg-11.mb-4
                 h5 Tabla 1. 
@@ -61,8 +62,10 @@
                 tr
                   td Refactorización
                   td Reorganización del código para mejorar su calidad sin modificar la funcionalidad existente.
-          
-      div.mb-4(data-aos="fade-right")
+      
+      separador
+
+      div.mb-5(data-aos="fade-right")
         h3.position-relative#t_1_2 1.2	Relación entre procesos, calidad interna/externa y contexto de uso
           img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
       

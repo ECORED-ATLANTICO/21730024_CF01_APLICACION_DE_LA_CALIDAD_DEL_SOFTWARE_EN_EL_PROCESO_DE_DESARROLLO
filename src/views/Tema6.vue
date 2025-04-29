@@ -1,7 +1,7 @@
 <template lang="pug">
   .curso-main-container.pb-3
     BannerInterno
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bg05
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 6
@@ -16,7 +16,7 @@
   
       separador 
   
-      div.mb-4(data-aos="fade-right")
+      div.mb-5(data-aos="fade-right")
         h3.position-relative#t_6_1 6.1	Características de la norma 
           img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
   
@@ -24,13 +24,13 @@
       .row.align-items-center
         .col-md-5.mb-3.col-10.mx-auto
           img(src='@/assets/curso/temas/tema6/img_02.png', alt='Imagen decorativa')
-        .col-md-7.mb-3
+        .col-12.col-lg-7.mb-3
           SlyderF(columnas="col-12").bg-lightblue.p-4
             .tarjeta.p-4.d-flex.flex-column.justify-content-center.flex-grow-1
               .row.align-items-center
                 .col-md-2
                   figure
-                    img(src="@/assets/curso/temas/tema6/img_03.svg", alt="Imagen decorativa").mx-auto.w-auto
+                    img(src="@/assets/curso/temas/tema6/img_03.svg", alt="Imagen decorativa").mx-auto.w-auto.mb-3
                 .col-md-10
                   p
                     b Auditorías de procesos 
@@ -39,7 +39,7 @@
               .row.align-items-center
                 .col-md-2
                   figure
-                    img(src="@/assets/curso/temas/tema6/img_04.svg", alt="Imagen decorativa").mx-auto.w-auto
+                    img(src="@/assets/curso/temas/tema6/img_04.svg", alt="Imagen decorativa").mx-auto.w-auto.mb-3
                 .col-md-10
                   p
                     b Reproducibilidad 
@@ -48,7 +48,7 @@
               .row.align-items-center
                 .col-md-2
                   figure
-                    img(src="@/assets/curso/temas/tema6/img_05.svg", alt="Imagen decorativa").mx-auto.w-auto
+                    img(src="@/assets/curso/temas/tema6/img_05.svg", alt="Imagen decorativa").mx-auto.w-auto.mb-3
                 .col-md-10
                   p
                   b Imparcialidad 
@@ -56,7 +56,7 @@
 
       separador 
 
-      div.mb-4(data-aos="fade-right")
+      div.mb-5(data-aos="fade-right")
         h3.position-relative#t_6_2 6.2	Procesos para desarrolladores, usuarios finales, avaladores
           img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
 

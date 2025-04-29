@@ -20,7 +20,7 @@
 
       separador
 
-      div.mb-4(data-aos="fade-right")
+      div.mb-5(data-aos="fade-right")
         h3.position-relative#t_7_1 7.1	PSP 
           i (Personal Software Process): 
           | fases y registro de tiempos
@@ -30,15 +30,15 @@
         .col-md-3.col-lg-3.mb-3.col-6.mx-auto
           figure
             img(src="@/assets/curso/temas/tema7/img_02.png", alt="Imagen decorativa").mx-auto
-        .col-md-7.col-lg-7.mb-3
+        .col-md-12.col-lg-7.mb-3
           p.mb-0 El PSP es una metodología que permite a cada desarrollador gestionar de forma personal su proceso de trabajo. Se estructura en fases que van desde un proceso básico de identificación y registro de actividades (PSP 0) hasta un proceso cíclico de desarrollo de programas de mayor escala (PSP 3). El método enfatiza la planeación, la medición del tiempo y la identificación de defectos, facilitando la mejora continua a nivel individual. Se recomienda llevar un registro de tiempos mediante tablas que incluyan fecha, hora de inicio y fin, interrupciones, descripción de la actividad y unidades ejecutadas.
-        .col-md-2.col-lg-2.mb-3.col-6.mx-auto
+        .col-md-3.col-lg-2.mb-3.col-6.mx-auto
           figure
             img(src="@/assets/curso/temas/tema7/img_03.png", alt="Imagen decorativa").mx-auto
       
       separador
       
-      div.mb-4(data-aos="fade-right")
+      div.mb-5(data-aos="fade-right")
         h3.position-relative#t_7_2 7.2	TSP 
           i (Team Software Process):
           | trabajo en equipo y planificación
@@ -54,7 +54,7 @@
 
       separador
 
-      div.mb-4(data-aos="fade-right")
+      div.mb-5(data-aos="fade-right")
         h3.position-relative#t_7_3 7.3	CMMI 
           i (Capability Maturity Model Integration): 
           | niveles de madurez
@@ -84,7 +84,7 @@
 
       separador
 
-      div.mb-4(data-aos="fade-right")
+      div.mb-5(data-aos="fade-right")
         h3.position-relative#t_7_4 7.4	GQM 
           i (Goal Question Metric): 
           | metas, preguntas y métricas

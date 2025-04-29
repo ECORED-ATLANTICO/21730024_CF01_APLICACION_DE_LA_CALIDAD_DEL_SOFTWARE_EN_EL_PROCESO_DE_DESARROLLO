@@ -15,7 +15,7 @@
 
     separador 
 
-    div.mb-4(data-aos="fade-right")
+    div.mb-5(data-aos="fade-right")
       h3.position-relative#t_4_1 4.1	Desafíos en la medición de atributos intangibles
         img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
 
@@ -28,17 +28,17 @@
     
     separador
 
-    div.mb-4(data-aos="fade-right")
+    div.mb-5(data-aos="fade-right")
       h3.position-relative#t_4_2 4.2	Enfoque cualitativo frente al cuantitativo
         img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
 
     .row.mb-4.align-items-center
-      .col-md-1.col-lg-1.mb-3.col-4.mx-auto
+      .col-md-2.col-lg-1.mb-3.col-4.mx-auto.d-none.d-md-block
         figure
           img(src="@/assets/curso/temas/tema4/img_03.svg", alt="Imagen decorativa").mx-auto
-      .col-md-9.col-lg-9.mb-3
+      .col-lg-9.mb-3.col-12
         p.mb-0 El enfoque cualitativo se centra en describir y analizar características mediante observaciones, encuestas y estudios de caso, aportando una visión integral de la experiencia del usuario. Por otro lado, el enfoque cuantitativo utiliza datos numéricos obtenidos a través de métricas y pruebas automatizadas. La combinación de ambos enfoques permite una evaluación más completa, en la que se contraponen los resultados medibles con la interpretación del comportamiento y satisfacción del usuario.
-      .col-md-2.col-lg-2.mb-3.col-6.mx-auto
+      .col-md-2.col-lg-2.mb-3.col-6.mx-auto.d-none.d-lg-block
         figure
           img(src="@/assets/curso/temas/tema3/img_08.svg", alt="Imagen decorativa").mx-auto
 

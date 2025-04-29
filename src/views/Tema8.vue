@@ -1,7 +1,7 @@
 <template lang="pug">
   .curso-main-container.pb-3
     BannerInterno
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bg04
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 8
@@ -9,14 +9,14 @@
           i software
   
       div.tarjeta-horz
-        img(src='@/assets/curso/temas/tema2/img_01.png', alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema8/img_01.png', alt='Imagen decorativa')
         div
           p.mb-0 La familia ISO/IEC 25000, también conocida como SQuaRE, integra un conjunto de normas que ofrecen un marco integral para la gestión y evaluación de la calidad del 
             i software.
   
       separador 
   
-      div.mb-4(data-aos="fade-right")
+      div.mb-5(data-aos="fade-right")
         h3.position-relative#t__1 8.1	Divisiones del modelo SQuaRE
           img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
 

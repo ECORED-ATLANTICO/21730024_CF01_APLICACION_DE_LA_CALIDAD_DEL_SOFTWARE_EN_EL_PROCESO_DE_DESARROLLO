@@ -10,7 +10,7 @@
           img(src="@/assets/curso/sintesis.png", alt="alt").mx-auto
     
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-12.mb-5
         figure
           img(src="@/assets/curso/sintesis.svg", alt=" ")
       .col-auto

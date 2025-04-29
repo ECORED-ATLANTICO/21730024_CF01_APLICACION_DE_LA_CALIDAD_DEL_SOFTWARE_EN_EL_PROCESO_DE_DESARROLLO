@@ -5,26 +5,22 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Tema 3
+      h1 Transición de las Normas ISO/IEC 9126 e ISO/IEC 14598 a ISO/IEC 25000
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12.mb-2
-        .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.bg01
+        .bloque-texto-g.bloque-texto-g.p-3.p-sm-4.p-md-5.bg03
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img_01.jpg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img_01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p La calidad en el desarrollo de 
+            p La evolución de las normas que regulan la calidad en el desarrollo de
               i software 
-              | es un eje fundamental para garantizar productos que cumplan con las expectativas funcionales, técnicas y de experiencia del usuario, se entiende como un conjunto de prácticas y métodos que aseguran que el producto final cumpla con los requerimientos, funcione de forma confiable y se adapte al contexto de uso.
-              br 
-              | En un entorno tecnológico en constante evolución, las normas internacionales actúan como guías para estandarizar procesos, métricas y criterios de evaluación. Este componente explora modelos como ISO/IEC 9126, ISO/IEC 14598 y la familia ISO 25000, que brindan marcos de referencia para medir, gestionar y mejorar la calidad del 
-              i software 
-              | desde su diseño hasta su mantenimiento.
+              | ha permitido integrar nuevos criterios y metodologías que fortalecen la medición y evaluación del producto.
 
         separador
 
-    div.mb-4(data-aos="fade-right")
+    div.mb-5(data-aos="fade-right")
       h3.position-relative#t_3_1 3.1	Fases: requerimientos, diseño, codificación, pruebas, validación, mantenimiento
         img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
 
@@ -84,7 +80,7 @@
               | procesos repetibles y adaptables (ISO/IEC, 2014).
 
 
-    div.mb-4(data-aos="fade-right")
+    div.mb-5(data-aos="fade-right")
       h3.position-relative#t_3_2 3.2	Integración en el marco 
         i SQuaRE
         img.w-auto.pt-2(src="@/assets/curso/temas/border_title.svg", alt="Imagen decorativa")
@@ -101,7 +97,7 @@
           | en función de requisitos internos, externos y de uso. La integración en el marco SQuaRE permite disponer de un modelo integral que favorece la planificación, la ejecución de pruebas y la gestión de la calidad de manera sistemática. SQuaRE incorpora:
     
     .row.d-flex.mb-5
-      .col-md-6.d-flex.flex-column.mb-3.mb-md-0
+      .col-lg-6.col-md-12.d-flex.flex-column.mb-3.mb-lg-0
         .tarjeta.bg-acento-contenido-20.p-4.d-flex.flex-column.justify-content-center.flex-grow-1
           .row.align-items-center
             .col-md-2
@@ -111,7 +107,7 @@
               p.mb-0
                 b Modelos de calidad: 
                 | define 8 características y 31 subcaracterísticas. Ejemplo: La eficiencia incluye subcaracterísticas como comportamiento temporal (tiempo de respuesta) y utilización de recursos (memoria consumida).
-      .col-md-6.d-flex.flex-column
+      .col-lg-6.col-md-12.d-flex.flex-column
         .tarjeta.bg-acento-contenido-20.p-4.d-flex.flex-column.justify-content-center.flex-grow-1
           .row.align-items-center
             .col-md-2

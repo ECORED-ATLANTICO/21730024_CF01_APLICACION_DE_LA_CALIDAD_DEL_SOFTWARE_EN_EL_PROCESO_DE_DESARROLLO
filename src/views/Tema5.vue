@@ -21,14 +21,14 @@
 
         separador
 
-    div.mb-4(data-aos="fade-right")
+    div.mb-5(data-aos="fade-right")
       h3.position-relative#t_5_1 5.1 Características de la norma 
         img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
 
     .row.mb-4
       .col-6.col-md-4.mx-auto
         figure
-         img(src="@/assets/curso/temas/tema5/img_02.png", alt="Imagen decorativa").mx-auto
+         img(src="@/assets/curso/temas/tema5/img_02.png", alt="Imagen decorativa").mx-auto.mb-3
       .col-12.col-lg-8
         TabsA.color-primario.mb-5
           .tarjeta.p-4.bg-secundario-20(titulo="Funcionalidad")
@@ -103,7 +103,7 @@
                 td Adaptabilidad, instalabilidad, coexistencia, reemplazo
       separador
 
-      div.mb-4(data-aos="fade-right")
+      div.mb-5(data-aos="fade-right")
         h3.position-relative#t_5_2 5.2	Métricas externas, internas y de calidad en uso
           img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
 

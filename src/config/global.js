@@ -168,9 +168,9 @@ export default {
           },
 
           {
-            numero: '7.4',
+            numero: '7.3',
             titulo: 'GQM (Goal Question Metric): metas, preguntas y métricas',
-            hash: 't_7_4',
+            hash: 't_7_3',
           },
         ],
       },
@@ -246,7 +246,7 @@ export default {
       tema: 'PSP y TSP',
       referencia: 'Humphrey, W. S. (2017). Introducción al PSP.',
       tipo: 'Libro/PDF',
-      link: 'https://www.uv.mx/personal/asumano/files/2010/07/psp.pdf',
+      link: 'downloads/psp.pdf',
     },
     {
       tema: 'Ciclo de Vida del <em>Software</em>',
