@@ -26,7 +26,7 @@
         img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
 
     .row.mb-4
-      .col-6.col-md-4.mx-auto
+      .col-6.col-md-6.col-lg-4.mx-auto
         figure
          img(src="@/assets/curso/temas/tema5/img_02.png", alt="Imagen decorativa").mx-auto.mb-3
       .col-12.col-lg-8

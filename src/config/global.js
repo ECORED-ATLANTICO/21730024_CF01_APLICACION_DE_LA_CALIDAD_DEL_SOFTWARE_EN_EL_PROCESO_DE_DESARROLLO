@@ -166,11 +166,16 @@ export default {
               'TSP (Team Software Process):trabajo en equipo y planificación',
             hash: 't_7_2',
           },
-
           {
             numero: '7.3',
-            titulo: 'GQM (Goal Question Metric): metas, preguntas y métricas',
+            titulo:
+              'CMMI (Capability Maturity Model Integration): niveles de madurez',
             hash: 't_7_3',
+          },
+          {
+            numero: '7.4',
+            titulo: 'GQM (Goal Question Metric): metas, preguntas y métricas',
+            hash: 't_7_4',
           },
         ],
       },
