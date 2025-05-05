@@ -15,7 +15,7 @@
           i software
           | ” explora los principios esenciales para garantizar que el 
           i software 
-          | cumpla con estándares de excelencia reconocidos globalmente. Incluyendo desde normas históricas como la ISO/IEC 9126, que define atributos clave como funcionalidad y usabilidad, hasta su evolución hacia la familia ISO/IEC 25000 (SQuaRE), este recorrido integra métricas prácticas y modelos de mejora continua. El objetivo es comprender cómo transformar códigos en productos confiables, eficientes y alineados con las demandas actuales de la industria. A través de un enfoque teórico-práctico, se analizará la transición de normas ISO/IEC 9126 y 14598 al marco SQuaRE y la aplicación de calidad en el ciclo de vida del 
+          | cumpla con estándares de excelencia reconocidos globalmente. Incluyendo desde normas históricas como la ISO/IEC 9126, que define atributos clave como funcionalidad y usabilidad, hasta su evolución hacia la familia ISO/IEC 25000 (<em>SQuaRE</em>), este recorrido integra métricas prácticas y modelos de mejora continua. El objetivo es comprender cómo transformar códigos en productos confiables, eficientes y alineados con las demandas actuales de la industria. A través de un enfoque teórico-práctico, se analizará la transición de normas ISO/IEC 9126 y 14598 al marco <em>SQuaRE</em> y la aplicación de calidad en el ciclo de vida del 
           i software 
           | mediante modelos como PSP, TSP, CMMI y GQM. Se identifican herramientas para evitar fallos costosos y transformar desarrollos en soluciones escalables, utilizando mapas conceptuales, casos reales y metodologías que convierten la calidad en un hábito estratégico.
       .col-md-8.col-lg-4.mb-3

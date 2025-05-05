@@ -53,7 +53,7 @@
             div.d-flex.align-items-center
               p Mide la relación entre el rendimiento del 
                 i software
-                | y los recursos empleados, incluyendo el comportamiento temporal y la utilización de recursos.
+                |  y los recursos empleados, incluyendo el comportamiento temporal y la utilización de recursos.
               img(src="@/assets/curso/temas/tema5/img_06.svg", alt="Imagen decorativa").mx-auto.w-auto.p-5
           .tarjeta.p-4.bg-secundario-20(titulo="Mantenibilidad")
             div.d-flex.align-items-center
@@ -112,13 +112,13 @@
           p Las métricas se dividen en tres categorías:
           AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
             .row(titulo="Métricas internas")
-              p Se obtienen mediante análisis del código y estructuras internas del software sin necesidad de su ejecución. Ejemplo: complejidad ciclomática (número de caminos en el código).
+              p Se obtienen mediante análisis del código y estructuras internas del <em>software</em> sin necesidad de su ejecución. Ejemplo: complejidad ciclomática (número de caminos en el código).
             .row(titulo="Métricas externas")
               p.mb-0 Se aplican durante la ejecución y permiten evaluar el comportamiento en condiciones reales de uso. 
               p Ejemplo: tasa de errores en producción (1 error por cada 1000 transacciones).
             .row(titulo="Métricas de calidad en uso ")
-              p.mb-0 Se centran en la satisfacción del usuario y la efectividad del software en el entorno operativo, considerando aspectos como eficiencia, eficacia y satisfacción. Ejemplo: tiempo promedio para completar una compra en una app. 
-          p Cada tipo de métrica complementa la evaluación global del software, posibilitando una revisión integral de sus atributos de calidad.
+              p.mb-0 Se centran en la satisfacción del usuario y la efectividad del <em>software</em> en el entorno operativo, considerando aspectos como eficiencia, eficacia y satisfacción. Ejemplo: tiempo promedio para completar una compra en una <em>app</em>.
+          p Cada tipo de métrica complementa la evaluación global del <em>software</em>, posibilitando una revisión integral de sus atributos de calidad.
         .col-md-8.col-lg-3.mb-3.col-6.mx-auto
           figure
             img(src="@/assets/curso/temas/tema5/img_09.png", alt="Imagen decorativa").mx-auto

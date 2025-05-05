@@ -20,7 +20,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software EAGLE</em> .',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -51,7 +51,7 @@ export default {
         {
           id: 2,
           texto:
-            'ISO/IEC 25000 (SQuaRE) integra y actualiza los estándares de ISO/IEC 9126 e ISO/IEC 14598 en un marco unificado.?',
+            'ISO/IEC 25000 (<em>SQuaRE</em>) integra y actualiza los estándares de ISO/IEC 9126 e ISO/IEC 14598 en un marco unificado.?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -74,7 +74,7 @@ export default {
         {
           id: 3,
           texto:
-            'La familia SQuaRE incluye divisiones para gestión de calidad, modelos de calidad y evaluación de calidad.',
+            'La familia <em>SQuaRE</em> incluye divisiones para gestión de calidad, modelos de calidad y evaluación de calidad.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -396,7 +396,7 @@ export default {
         {
           id: 17,
           texto:
-            'SQuaRE considera la "calidad en uso" como un aspecto separado de la calidad interna y externa.',
+            '<em>SQuaRE</em> considera la "calidad en uso" como un aspecto separado de la calidad interna y externa.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -419,7 +419,7 @@ export default {
         {
           id: 18,
           texto:
-            'Las métricas internas se obtienen durante la ejecución del software en un entorno real.',
+            'Las métricas internas se obtienen durante la ejecución del <em>software</em> en un entorno real.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [

@@ -50,7 +50,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema7/img_04.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p El TSP se orienta al trabajo colaborativo, promoviendo la coordinación y planificación en equipos de desarrollo. Bajo la guía de un coach, cada miembro conoce su rol y se establece un plan de actividades con tiempos definidos, lo que favorece la adaptación ante cambios y la optimización de recursos. La metodología se basa en la comunicación constante, la coordinación y la revisión periódica de los avances del proyecto.
+            p El TSP se orienta al trabajo colaborativo, promoviendo la coordinación y planificación en equipos de desarrollo. Bajo la guía de un <em>coach</em>, cada miembro conoce su rol y se establece un plan de actividades con tiempos definidos, lo que favorece la adaptación ante cambios y la optimización de recursos. La metodología se basa en la comunicación constante, la coordinación y la revisión periódica de los avances del proyecto.
 
       separador
 

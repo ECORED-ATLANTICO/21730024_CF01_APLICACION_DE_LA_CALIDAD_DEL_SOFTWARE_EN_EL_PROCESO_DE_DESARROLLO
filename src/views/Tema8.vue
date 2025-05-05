@@ -11,16 +11,16 @@
       div.tarjeta-horz
         img(src='@/assets/curso/temas/tema8/img_01.png', alt='Imagen decorativa')
         div
-          p.mb-0 La familia ISO/IEC 25000, también conocida como SQuaRE, integra un conjunto de normas que ofrecen un marco integral para la gestión y evaluación de la calidad del 
+          p.mb-0 La familia ISO/IEC 25000, también conocida como <em>SQuaRE</em>, integra un conjunto de normas que ofrecen un marco integral para la gestión y evaluación de la calidad del 
             i software.
   
       separador 
   
       div.mb-5(data-aos="fade-right")
-        h3.position-relative#t__1 8.1	Divisiones del modelo SQuaRE
+        h3.position-relative#t__1 8.1	Divisiones del modelo <em>SQuaRE</em>
           img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
 
-      p.mb-4 El modelo SQuaRE se compone de varias divisiones que abordan aspectos específicos de la calidad:
+      p.mb-4 El modelo <em>SQuaRE</em> se compone de varias divisiones que abordan aspectos específicos de la calidad.
 
       SlyderF(columnas="col-lg-6 col-xl-4").mb-5
         .tarjeta-avatar
@@ -29,7 +29,7 @@
             .p-4
               p.mb-0
                 b Gestión de calidad (ISO/IEC 2500n): 
-              p establece directrices para la administración de la calidad en el desarrollo. (ejemplo: ISO/IEC 25001 para planificación.)
+              p establece directrices para la administración de la calidad en el desarrollo. Ejemplo: ISO/IEC 25001 para planificación.
 
         .tarjeta-avatar
             img(src='@/assets/curso/temas/tema8/img_03.svg'  alt='Imagen Descriptiva').w-auto
@@ -67,14 +67,14 @@
                 b Evaluación de calidad (ISO/IEC 2504n): 
               p proporciona las pautas y procedimientos para llevar a cabo la valoración y auditoría del producto. Ejemplo: ISO/IEC 25044 para evaluadores; ISO/IEC 25000, 2014. 
 
-      p.mb-5 A modo de referencia, la siguiente tabla resume las divisiones incluidas en el modelo SQuaRE:
+      p.mb-5 A modo de referencia, la siguiente tabla resume las divisiones incluidas en el modelo <em>SQuaRE</em>:
 
       .row.mb-5
         .col-lg-10.mb-2.mx-auto
           .titulo-sexto.bg-11.mb-4
               h5 Tabla 3. 
               span
-                i Divisiones del modelo SQuaRE y sus contenidos principales
+                i Divisiones del modelo <em>SQuaRE</em> y sus contenidos principales
           
           table.style01
             caption Fuente: 

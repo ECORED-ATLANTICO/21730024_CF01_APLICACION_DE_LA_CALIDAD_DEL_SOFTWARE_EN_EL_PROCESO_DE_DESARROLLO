@@ -14,21 +14,20 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img_01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p La evolución de las normas que regulan la calidad en el desarrollo de
-              i software 
-              | ha permitido integrar nuevos criterios y metodologías que fortalecen la medición y evaluación del producto.
+            p La evolución de las normas que regulan la calidad en el desarrollo de <em>software</em>
+              |  ha permitido integrar nuevos criterios y metodologías que fortalecen la medición y evaluación del producto.
 
         separador
 
     div.mb-5(data-aos="fade-right")
-      h3.position-relative#t_3_1 3.1	Fases: requerimientos, diseño, codificación, pruebas, validación, mantenimiento
+      h3.position-relative#t_3_1 3.1	Evolución historica 
         img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
 
     .row.mb-4
       .col-md-12.col-lg-8.mb-3
         p La norma ISO/IEC 9126 se estableció como referencia para definir y medir la calidad de los productos de 
           i software, 
-          | mientras que la ISO/IEC 14598 se orientó a la evaluación de dichos productos mediante la aplicación de métricas específicas. Con el tiempo, la necesidad de un marco más completo y actualizó surgió, lo que condujo a la integración de ambas normas en el conjunto ISO/IEC 25000. Este cambio responde a la evolución de las tecnologías y a la demanda de una evaluación que abarque tanto la calidad del producto como la eficiencia en el uso, pero presentaban limitaciones:
+          | mientras que la ISO/IEC 14598 se orientó a la evaluación de dichos productos mediante la aplicación de métricas específicas. Con el tiempo, la necesidad de un marco más completo y actualizó surgió, lo que condujo a la integración de ambas normas en el conjunto ISO/IEC 25000. Este cambio responde a la evolución de las tecnologías y a la demanda de una evaluación que abarque tanto la calidad del producto como la eficiencia en el uso, pero presentaban limitaciones.
         .tarjeta.bg-acento-contenido-20.p-3.d-flex.flex-column.justify-content-center.flex-grow-1.mb-2
           .row.align-items-center
             .col-md-1
@@ -45,8 +44,8 @@
                 img(src="@/assets/curso/temas/tema3/img_04.svg", alt="Imagen decorativa").mx-auto.w-auto
             .col-md-11
               p.mb-0
-                b Fragmentación: 
-                | métricas y requisitos dispersos en múltiples documentos.
+                b Falta de adaptabilidad: 
+                | no consideraban contextos modernos como <em>DevOps</em> o desarrollo ágil
         .tarjeta.bg-acento-contenido-20.p-3.d-flex.flex-column.justify-content-center.flex-grow-1.mb-2
           .row.align-items-center
             .col-md-1
@@ -54,8 +53,8 @@
                 img(src="@/assets/curso/temas/tema3/img_05.svg", alt="Imagen decorativa").mx-auto.w-auto
             .col-md-11
               p.mb-0
-                b Fragmentación: 
-                | métricas y requisitos dispersos en múltiples documentos.
+                b Enfoque estático: 
+                | poca flexibilidad para integrar nuevas tecnologías (Garzás, 2012).
       .col-md-8.col-lg-4.mb-3.col-10.mx-auto
         figure
           img(src="@/assets/curso/temas/tema3/img_02.png", alt="Imagen decorativa").mx-auto
@@ -68,7 +67,7 @@
             figure
               img(src="@/assets/curso/temas/tema3/img_06.png", alt="Imagen decorativa").w-auto.mx-auto
           .col-md-10.p-5
-            p La familia ISO/IEC 25000 SQuaRE surge en 2014 como un marco unificado, integrando y actualizando estos estándares. Su objetivo es ofrecer un enfoque holístico que abarque:
+            p La familia ISO/IEC 25000 <em>SQuaRE</em> surge en 2014 como un marco unificado, integrando y actualizando estos estándares. Su objetivo es ofrecer un enfoque holístico que abarque.
             p.mb-0
               b Calidad del producto: 
               | características técnicas.
@@ -82,7 +81,7 @@
 
     div.mb-5(data-aos="fade-right")
       h3.position-relative#t_3_2 3.2	Integración en el marco 
-        i SQuaRE
+        i <em>SQuaRE</em>
         img.w-auto.pt-2(src="@/assets/curso/temas/border_title.svg", alt="Imagen decorativa")
 
     .row.mb-4.align-items-center
@@ -90,11 +89,11 @@
         figure
           img(src="@/assets/curso/temas/tema3/img_08.svg", alt="Imagen decorativa").mx-auto.w-auto
       .col-md-12.col-lg-10.mb-3
-        p El modelo SQuaRE 
+        p El modelo <em>SQuaRE</em> 
           i (System and Software Quality Requirements and Evaluation) 
           | consolida los elementos de calidad de las normas anteriores y establece directrices para definir, medir y evaluar la calidad del 
           i software 
-          | en función de requisitos internos, externos y de uso. La integración en el marco SQuaRE permite disponer de un modelo integral que favorece la planificación, la ejecución de pruebas y la gestión de la calidad de manera sistemática. SQuaRE incorpora:
+          | en función de requisitos internos, externos y de uso. La integración en el marco <em>SQuaRE</em> permite disponer de un modelo integral que favorece la planificación, la ejecución de pruebas y la gestión de la calidad de manera sistemática. <em>SQuaRE</em> incorpora.
     
     .row.d-flex.mb-5
       .col-lg-6.col-md-12.d-flex.flex-column.mb-3.mb-lg-0
@@ -106,7 +105,7 @@
             .col-md-10
               p.mb-0
                 b Modelos de calidad: 
-                | define 8 características y 31 subcaracterísticas. Ejemplo: La eficiencia incluye subcaracterísticas como comportamiento temporal (tiempo de respuesta) y utilización de recursos (memoria consumida).
+                | define 8 características y 31 subcaracterísticas. Ejemplo: la eficiencia incluye subcaracterísticas como comportamiento temporal (tiempo de respuesta) y utilización de recursos (memoria consumida).
       .col-lg-6.col-md-12.d-flex.flex-column
         .tarjeta.bg-acento-contenido-20.p-4.d-flex.flex-column.justify-content-center.flex-grow-1
           .row.align-items-center
@@ -123,7 +122,7 @@
         .titulo-sexto.mb-4
           h5 Figura 2. 
           span
-            i Evolución hacia SQuaRE
+            i Evolución hacia <em>SQuaRE</em>
         figure.mb-4
           img(src='@/assets/curso/temas/tema3/img_11.svg', alt='').mx-auto
           figcaption 
