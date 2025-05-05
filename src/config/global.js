@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Fundamentos y procesos en calidad de software',
+    Name: 'Fundamentos y procesos en calidad de <em>software</em>',
     Description:
-      'Este componente formativo aborda fundamentos teóricos y prácticos de la calidad de software, integrando normas ISO/IEC 9126, 14598 y su transición a ISO/IEC 25000. Incluye métricas básicas, factores de calidad, ciclo de vida del software, aplicación de estándares (PSP, TSP, CMMI, GQM) y modelos de procesos para garantizar productos confiables, eficientes y alineados con las expectativas del cliente.',
+      'Este componente formativo aborda fundamentos teóricos y prácticos de la calidad de <em>software</em>, integrando normas ISO/IEC 9126, 14598 y su transición a ISO/IEC 25000. Incluye métricas básicas, factores de calidad, ciclo de vida del software, aplicación de estándares (PSP, TSP, CMMI, GQM) y modelos de procesos para garantizar productos confiables, eficientes y alineados con las expectativas del cliente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -88,7 +88,7 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: 'Integración en el marco SQuaRE',
+            titulo: 'Integración en el marco <em>SQuaRE</em>',
             hash: 't_3_2',
           },
         ],
@@ -187,7 +187,7 @@ export default {
         subMenu: [
           {
             numero: '8.1',
-            titulo: 'Divisiones del modelo SQuaRE',
+            titulo: 'Divisiones del modelo <em>SQuaRE</em>',
             hash: 't_8_1',
           },
         ],
@@ -242,14 +242,14 @@ export default {
     {
       tema: 'Modelo CMMI',
       referencia:
-        'SEI. (2010). Modelo CMMI para Desarrollo v1.3. Carnegie Mellon University',
+        'SEI. (2010). Modelo CMMI para Desarrollo v1.3. <em>Carnegie Mellon University</em>',
       tipo: 'Guía técnica',
       link:
         'https://es.slideshare.net/slideshow/spanish-technical-report-cmmi-v-1-3-26416661/26416661',
     },
     {
       tema: 'PSP y TSP',
-      referencia: 'Humphrey, W. S. (2017). Introducción al PSP.',
+      referencia: '<em>Humphrey, W. S.</em> (2017). Introducción al PSP.',
       tipo: 'Libro/PDF',
       link: 'downloads/psp.pdf',
     },
@@ -327,14 +327,14 @@ export default {
         'enfoque para definir métricas basadas en objetivos, preguntas y medidas cuantificables.',
     },
     {
-      termino: 'SQuaRE (ISO/IEC 5000)',
+      termino: '<em>SQuaRE</em> (ISO/IEC 5000)',
       significado:
         'familia de normas para gestionar requisitos y evaluación de calidad en sistemas y <em>software.</em>',
     },
     {
       termino: 'Refactorización',
       significado:
-        'reestructuración del código sin alterar su funcionalidad para mejorar su mantenibilidad o rendimiento',
+        'reestructuración del código sin alterar su funcionalidad para mejorar su mantenibilidad o rendimiento.',
     },
   ],
   referencias: [
@@ -351,7 +351,7 @@ export default {
     },
     {
       referencia:
-        'ISO/IEC. (2014). ISO/IEC 25000:2014 – Ingeniería de sistemas y software – Requisitos y evaluación de la calidad de sistemas y software (SQuaRE). Ginebra: Organización Internacional de Normalización (ISO).',
+        'ISO/IEC. (2014). ISO/IEC 25000:2014 – Ingeniería de sistemas y software – Requisitos y evaluación de la calidad de sistemas y software (<em>SQuaRE</em>). Ginebra: Organización Internacional de Normalización (ISO).',
       link: '',
     },
     {

@@ -17,7 +17,7 @@
     separador 
 
     div.mb-5(data-aos="fade-right")
-        h3.position-relative#t_2_1 2.1	Fases: requerimientos, diseño, codificación, pruebas, validación, mantenimiento
+        h3.position-relative#t_2_1 2.1	Fases: requerimientos, diseño, codificación, pruebas, validación y mantenimiento
           img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
     
     .row
@@ -40,7 +40,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/img_03.svg", alt="Imagen decorativa").mx-auto
       .col-md-12.col-lg-11.mb-3
-        p Para asegurar la calidad durante cada fase, se emplean diversas herramientas de revisión y auditoría, tales como sistemas de control de versiones, software de análisis estático de código y listas de chequeo para la revisión de requisitos y documentación. Estas herramientas permiten detectar inconsistencias, mejorar la calidad del código y garantizar el cumplimiento de las normativas vigentes en la industria.
+        p Para asegurar la calidad durante cada fase, se emplean diversas herramientas de revisión y auditoría, tales como sistemas de control de versiones, <em>software</em> de análisis estático de código y listas de chequeo para la revisión de requisitos y documentación. Estas herramientas permiten detectar inconsistencias, mejorar la calidad del código y garantizar el cumplimiento de las normativas vigentes en la industria.
      
     .row.d-flex.mb-5
       .col-lg-6.col-md-12.d-flex.flex-column.mb-3.mb-lg-0
@@ -52,7 +52,7 @@
             .col-md-10
               p.mb-0
                 b Revisión de código: 
-                | herramientas como SonarQube detectan vulnerabilidades como SQL injection.
+                | herramientas como <em>SonarQube</em> detectan vulnerabilidades como <em>SQL injection</em>.
       .col-lg-6.col-md-12.d-flex.flex-column
         .tarjeta.bg-secundario-20.p-4.d-flex.flex-column.justify-content-center.flex-grow-1
           .row.align-items-center
@@ -62,7 +62,7 @@
             .col-md-10
               p.mb-0
                 b Auditorías de procesos: 
-                | métodos como CMMI evalúan la madurez organizacional en niveles del 1 (ad-hoc) al 5 (optimizado).
+                | métodos como CMMI evalúan la madurez organizacional en niveles del 1 (<em>ad-hoc</em>) al 5 (optimizado).
 
 
     .col-lg-10.mb-4.mx-auto

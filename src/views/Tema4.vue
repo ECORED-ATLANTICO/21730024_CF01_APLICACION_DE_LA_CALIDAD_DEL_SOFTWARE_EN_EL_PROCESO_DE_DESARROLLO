@@ -11,7 +11,7 @@
     div.tarjeta-horz
       img(src='@/assets/curso/temas/tema2/img_01.png', alt='Imagen decorativa')
       div
-        p.mb-0 La medición de la calidad en el software implica cuantificar aspectos que, en muchos casos, resultan intangibles, lo cual supone desafíos significativos en el proceso de evaluación.
+        p.mb-0 La medición de la calidad en el <em>software</em> implica cuantificar aspectos que, en muchos casos, resultan intangibles, lo cual supone desafíos significativos en el proceso de evaluación.
 
     separador 
 
@@ -21,7 +21,7 @@
 
     .row.mb-4
       .col-md-12.col-lg-8.mb-3
-        p Entre los principales desafíos se encuentra la dificultad para cuantificar atributos como la usabilidad, la fiabilidad o la satisfacción del usuario. Estas características, al no ser físicas, requieren la adopción de métodos de medición que combinen análisis cualitativos y cuantitativos, basados en indicadores y métricas específicas. La complejidad reside en traducir percepciones y comportamientos en datos objetivos que permitan evaluar la calidad del producto. La calidad del software es intangible; por ejemplo, la "usabilidad" no se mide con unidades físicas. Se requieren métodos como encuestas de satisfacción con una escala del 1 al 5 para evaluar facilidad de uso o métricas de interacción con número de clics para completar una tarea.
+        p Entre los principales desafíos se encuentra la dificultad para cuantificar atributos como la usabilidad, la fiabilidad o la satisfacción del usuario. Estas características, al no ser físicas, requieren la adopción de métodos de medición que combinen análisis cualitativos y cuantitativos, basados en indicadores y métricas específicas. La complejidad reside en traducir percepciones y comportamientos en datos objetivos que permitan evaluar la calidad del producto. La calidad del <em>software</em> es intangible; por ejemplo, la "usabilidad" no se mide con unidades físicas. Se requieren métodos como encuestas de satisfacción con una escala del 1 al 5 para evaluar facilidad de uso o métricas de interacción con número de clics para completar una tarea.
       .col-md-8.col-lg-4.mb-3.col-10.mx-auto
         figure
           img(src="@/assets/curso/temas/tema4/img_02.svg", alt="Imagen decorativa").mx-auto
@@ -58,7 +58,7 @@
 
               p.mb-0
                 b Ejemplo:
-              p Feedback de usuarios en pruebas beta.
+              p <em>Feedback</em> de usuarios en pruebas beta.
 
               p.mb-0
                 b Herramientas:
@@ -90,10 +90,10 @@
 
                 p.mb-0
                   b Herramientas:
-                p.mb-0 - Google Analytics
+                p.mb-0 - <em>Google Analytics</em>
                 p.mb-0 - Tests A/B
                 p.mb-0 - Métricas de rendimiento 
-                p.mb-0 - Software de monitoreo de usabilidad
+                p.mb-0 - <em>Software</em> de monitoreo de usabilidad
             
             .col-md-8.col-xl-4.mb-3
               figure
