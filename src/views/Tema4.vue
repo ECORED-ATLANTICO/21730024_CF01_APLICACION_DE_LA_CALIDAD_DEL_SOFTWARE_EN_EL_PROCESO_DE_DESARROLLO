@@ -53,15 +53,15 @@
               p Se centra en describir y analizar características mediante observaciones, encuestas y estudios de caso. Aporta una visión integral de la experiencia del usuario.
 
               p.mb-0
-                b Objetivo:
+                b Objetivo
               p Comprender el comportamiento, opiniones y percepciones de los usuarios.
 
               p.mb-0
-                b Ejemplo:
+                b Ejemplo
               p <em>Feedback</em> de usuarios en pruebas beta.
 
               p.mb-0
-                b Herramientas:
+                b Herramientas
               p.mb-0 - Entrevistas y encuestas abiertas
               p.mb-0 - Evaluaciones heurísticas según Nielsen
               p.mb-0 - Estudios de caso

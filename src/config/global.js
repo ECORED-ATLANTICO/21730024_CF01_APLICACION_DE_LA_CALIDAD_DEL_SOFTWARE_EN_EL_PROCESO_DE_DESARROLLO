@@ -340,23 +340,23 @@ export default {
   referencias: [
     {
       referencia:
-        'Abud Figueroa, M. (2000). Calidad en la Industria del Software. La Norma ISO-9126. Recuperado de',
+        'Abud Figueroa, M. (2000). Calidad en la Industria del <em>Software</em>. La Norma ISO-9126. Recuperado de',
       link:
         'https://repositorio.utp.edu.co/server/api/core/bitstreams/1bb30bc9-250c-4764-8366-27b1e6ed2ef1/content',
     },
     {
       referencia:
-        'Garzás, J. (2012). Cómo estandarizar la evaluación de la calidad software... la ISO 9126 y la ISO 25000. Recuperado de:',
+        'Garzás, J. (2012). Cómo estandarizar la evaluación de la calidad <em>software</em>... la ISO 9126 y la ISO 25000. Recuperado de:',
       link: 'http://www.javiergarzas.com/2012/10/iso-9126-iso-25000-2.html',
     },
     {
       referencia:
-        'ISO/IEC. (2014). ISO/IEC 25000:2014 – Ingeniería de sistemas y software – Requisitos y evaluación de la calidad de sistemas y software (<em>SQuaRE</em>). Ginebra: Organización Internacional de Normalización (ISO).',
+        'ISO/IEC. (2014). ISO/IEC 25000:2014 – Ingeniería de sistemas y <em>software</em> – Requisitos y evaluación de la calidad de sistemas y <em>software</em> (<em>SQuaRE</em>). Ginebra: Organización Internacional de Normalización (ISO).',
       link: '',
     },
     {
       referencia:
-        'Instituto de Ingeniería del Software (SEI). (2010). Modelo CMMI para desarrollo v1.3: Guía para la integración de procesos y la mejora de productos [Presentación de diapositivas]. Carnegie Mellon University. Recuperado de',
+        'Instituto de Ingeniería del <em>Software</em> (SEI). (2010). Modelo CMMI para desarrollo v1.3: Guía para la integración de procesos y la mejora de productos [Presentación de diapositivas]. <em>Carnegie Mellon University.</em> Recuperado de',
       link:
         'https://es.slideshare.net/slideshow/spanish-technical-report-cmmi-v-1-3-26416661/26416661',
     },
