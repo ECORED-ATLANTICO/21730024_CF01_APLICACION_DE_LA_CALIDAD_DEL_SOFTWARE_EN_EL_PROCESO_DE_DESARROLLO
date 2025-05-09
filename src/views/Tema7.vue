@@ -60,10 +60,11 @@
           | niveles de madurez
           img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
       
-      p.mb-5 El modelo CMMI proporciona un marco para la mejora de procesos en el desarrollo, mantenimiento y operación de 
+      p.mb-3 El modelo CMMI proporciona un marco para la mejora de procesos en el desarrollo, mantenimiento y operación de 
         i software.
-        | Se estructura en cinco niveles de madurez:
+      p.mb-3 Se estructura en cinco niveles de madurez:
       
+
       .col-lg-10.mb-4.mx-auto
         .titulo-sexto.mb-4
           h5 Figura 4. 
@@ -71,7 +72,7 @@
             i Niveles de CMMI.
 
         figure.mb-4
-          img(src='@/assets/curso/temas/tema7/img_05.svg', alt='').mx-auto
+          img(src='@/assets/curso/temas/tema7/img_05.svg', alt='NIVEL 1: Conocido como nivel inicial o ejecutado: donde se alcanzó el objetivo sin tener en cuenta el costo ni la planeación de actividades. NIVEL 2: Conocido también como informal: donde se han definido actividades de control, pero estas no son efectivamente aplicadas y depende si el usuario lo desea aplicar o no. NIVEL 3: Conocido también como definido o estandarizado: ya que se ha desarrollado una planeación documentada y conocida de las actividades de control. NIVEL 4: Se conoce también como administrativo o monitoreado: donde se utilizan las herramientas específicas para cuantificar los resultados que benefician a los usuarios finales. NIVEL 5: También conocido con el nombre de optimizado: donde los procesos de mejora continua se encuentran presentes de manera continua y soportada con mediciones determinadas y evaluadas en el proceso práctico.').mx-auto
           figcaption 
             b Fuente: 
             | SENA, 2025
@@ -99,7 +100,7 @@
             i Niveles de GQM
 
         figure.mb-5
-          img(src='@/assets/curso/temas/tema7/img_06.svg', alt='').mx-auto
+          img(src='@/assets/curso/temas/tema7/img_06.svg', alt='Se detalla en la figura los niveles de GQM: G - Goals: Nivel conceptual (Objetivo): se determina el objetivo para un objeto, proceso o recurso mediante varios modelos de calidad, sin olvidar su relación con determinado entorno. Q - Questions: Nivel operacional (pregunta): determina una serie de preguntas que subdivide el objetivo y que describen a la entidad. M - Metrics : Nivel cuantitativo (métrico): detalla las métricas necesarias para dar respuesta a las preguntas citadas en el nivel operacional.').mx-auto
           figcaption 
             b Fuente: 
             | SENA, 2025

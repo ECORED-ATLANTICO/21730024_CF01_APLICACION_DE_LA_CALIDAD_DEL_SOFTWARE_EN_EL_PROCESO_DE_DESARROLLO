@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 6
-        h1 Factores de Evaluación según ISO/IEC 14598
+        h1 Factores de evaluación según ISO/IEC 14598
   
       div.tarjeta-horz
         img(src='@/assets/curso/temas/tema6/img_01.png', alt='Imagen decorativa')
@@ -23,7 +23,7 @@
 
       .row.align-items-center
         .col-md-12.mb-3.col-12.mx-auto
-          p La evaluación se fundamenta en criterios que aseguran que los procesos sean repetibles, es decir, que puedan ser ejecutados de manera consistente; reproducibles, garantizando que diferentes evaluadores obtengan resultados similares; e imparciales, para que la valoración se realice sin sesgos. Estos elementos permiten que la evaluación del software se base en medidas objetivas y confiables.
+          p La evaluación se fundamenta en criterios que aseguran que los procesos sean repetibles, es decir, que puedan ser ejecutados de manera consistente; reproducibles, garantizando que diferentes evaluadores obtengan resultados similares e imparciales, para que la valoración se realice sin sesgos. Estos elementos permiten que la evaluación del software se base en medidas objetivas y confiables.
 
         .col-md-5.mb-3.col-10.mx-auto
           img(src='@/assets/curso/temas/tema6/img_02.png', alt='Imagen decorativa')
@@ -77,9 +77,9 @@
                   img(src="@/assets/curso/temas/tema6/img_07.svg", alt="alt").img100
               .col
                 p 
-                b desarrolladores: 
-                | se establecen pautas que permitan integrar la evaluación durante el proceso de codificación, facilitando la detección temprana de defectos. Ejemplo: TDD - 
-                i Test-Driven Development.
+                  b Desarrolladores: 
+                  | se establecen pautas que permitan integrar la evaluación durante el proceso de codificación, facilitando la detección temprana de defectos. Ejemplo: TDD - 
+                  i Test-Driven Development.
           .crd.crd--avatarHorizontal.py-4
             .row.align-items-center.pr-4
               .col-auto
@@ -87,11 +87,11 @@
                   img(src="@/assets/curso/temas/tema6/img_08.svg", alt="alt").img100
               .col
                 p 
-                b usuarios finales: 
-                | se especifican procedimientos que aseguren que el 
-                i software 
-                | cumpla con las expectativas en su entorno de uso. Validando funcionalidades en escenarios reales. Ejemplo: pruebas A/B en una plataforma de 
-                i e-learning.
+                  b Usuarios finales: 
+                  | se especifican procedimientos que aseguren que el 
+                  i software 
+                  | cumpla con las expectativas en su entorno de uso. Validando funcionalidades en escenarios reales. Ejemplo: pruebas A/B en una plataforma de 
+                  i e-learning.
           .crd.crd--avatarHorizontal.crd--last.py-4
             .row.align-items-center
               .col-auto
@@ -99,8 +99,8 @@
                   img(src="@/assets/curso/temas/tema6/img_09.svg", alt="alt").img100
               .col
                 p 
-                b avaladores o evaluadores externos: 
-                | se plantean criterios independientes que permiten realizar una valoración objetiva y fundamentada del producto, certificando cumplimiento de estándares. Ejemplo: auditorías ISO 9001.
+                  b Avaladores o evaluadores externos: 
+                  | se plantean criterios independientes que permiten realizar una valoración objetiva y fundamentada del producto, certificando cumplimiento de estándares. Ejemplo: auditorías ISO 9001.
       .row
         .col-10.mx-auto
           p Esta división de procesos favorece la mejora continua y la identificación oportuna de áreas de oportunidad en el desarrollo del 

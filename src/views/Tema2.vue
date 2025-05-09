@@ -5,7 +5,8 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Ciclo de vida del software
+      h1 Ciclo de vida del 
+        i software
 
     div.tarjeta-horz
       img(src='@/assets/curso/temas/tema2/img_01.png', alt='Imagen decorativa')
@@ -72,10 +73,10 @@
           i Ciclo de vida del software
 
       figure.mb-4
-        img(src='@/assets/curso/temas/tema2/img_06.svg', alt='').mx-auto
+        img(src='@/assets/curso/temas/tema2/img_06.svg', alt='Se detalla en la figura del ciclo de vida del software las siguientes fases: Definición de necesidades, análisis, diseño, codificación, pruebas, validación, mantenimiento y evolución.').mx-auto
         figcaption 
           b Fuente: 
-          | SENA, 2025
+          | SENA, 2025.
 
 
 </template>

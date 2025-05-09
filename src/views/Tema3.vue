@@ -25,7 +25,7 @@
 
     .row.mb-4
       .col-md-12.col-lg-8.mb-3
-        p La norma ISO/IEC 9126 se estableció como referencia para definir y medir la calidad de los productos de 
+        p La Norma ISO/IEC 9126 se estableció como referencia para definir y medir la calidad de los productos de 
           i software, 
           | mientras que la ISO/IEC 14598 se orientó a la evaluación de dichos productos mediante la aplicación de métricas específicas. Con el tiempo, la necesidad de un marco más completo y actualizó surgió, lo que condujo a la integración de ambas normas en el conjunto ISO/IEC 25000. Este cambio responde a la evolución de las tecnologías y a la demanda de una evaluación que abarque tanto la calidad del producto como la eficiencia en el uso, pero presentaban limitaciones.
         .tarjeta.bg-acento-contenido-20.p-3.d-flex.flex-column.justify-content-center.flex-grow-1.mb-2
@@ -124,10 +124,10 @@
           span
             i Evolución hacia <em>SQuaRE</em>
         figure.mb-4
-          img(src='@/assets/curso/temas/tema3/img_11.svg', alt='').mx-auto
+          img(src='@/assets/curso/temas/tema3/img_11.svg', alt='Se detalla la evolución hacia SQuaRE actualmente, 9126: Calidad del producto. 1 – Modelo de calidad. 2 – Métricas externas. 3 – Métricas internas. 4 – Métricas de calidad en uso 14598: evaluación del producto. 1 – Resumen general. 2 – Planificación y gestión. 3 – Proceso para desarrolladores. 4 – Proceso para compradores. 5 – Proceso para evaluadores. 6 – Módulos de evaluación SQuaRE 2500n: gestión de calidad. 25000 – Guía de SQuaRE. 25001 – Planificación y Gestión. 2501n: modelo de calidad. 25010 – Guía y modelo de calidad. 2502n: medidas de calidad. 25020 – Guía y modelo de referencia. 25021 – Medidas primitivas. 25022 – Medidas internas. 25023 – Medidas externas. 25024 – Medidas de calidad en uso 2503n: requisitos de calidad. 25030 – Guía y requisitos de calidad. 2504n: evaluación de calidad. 25040 – Guía y resumen de evaluación. 25041 – Módulos de evaluación. 25042 – Proceso para desarrolladores. 25043 – Proceso para compradores. 25044 – Proceso para evaluadores.').mx-auto
           figcaption 
             b Fuente: 
-            | SENA, 2025 
+            | SENA, 2025.
 
 </template>
 

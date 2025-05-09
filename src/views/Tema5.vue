@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Factores de Calidad según ISO/IEC 9126
+      h1 Factores de calidad según ISO/IEC 9126
       
       
     .row.justify-content-center.align-items-center.mb-0
@@ -15,7 +15,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img_01.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p La norma ISO/IEC 9126 define una serie de características fundamentales que deben cumplir los productos de 
+            p La Norma ISO/IEC 9126 define una serie de características fundamentales que deben cumplir los productos de 
               i software 
               | para ser considerados de calidad, estructuradas en diversas dimensiones.
 
@@ -24,7 +24,7 @@
     div.mb-5(data-aos="fade-right")
       h3.position-relative#t_5_1 5.1 Características de la norma 
         img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
-
+      p Cada característica posee subatributos que permiten un análisis detallado:
     .row.mb-4
       .col-6.col-md-6.col-lg-4.mx-auto
         figure
@@ -67,7 +67,8 @@
                 i software 
                 | para ser transferido entre diferentes entornos, evaluando la adaptabilidad, instalabilidad, coexistencia y reemplazo. 
               img(src="@/assets/curso/temas/tema5/img_08.svg", alt="Imagen decorativa").mx-auto.w-auto.p-5
-          
+      
+      p A modo de apoyo, se puede consultar la siguiente tabla resumen:
       .row.mb-3
         .col-lg-10.mb-2.mx-auto
           .titulo-sexto.bg-11.mb-4

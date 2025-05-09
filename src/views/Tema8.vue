@@ -5,8 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 8
-        h1 Medición de la Calidad del 
-          i software
+        h1 Familia de normas ISO/IEC 25000
   
       div.tarjeta-horz
         img(src='@/assets/curso/temas/tema8/img_01.png', alt='Imagen decorativa')
