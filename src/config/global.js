@@ -256,7 +256,7 @@ export default {
     },
     {
       tema: 'Ciclo de Vida del <em>Software</em>',
-      referencia: 'SENA. (2017).',
+      referencia: 'SENA. (2017). <em>MaterialRAP2.docx</em>',
       tipo: 'Video educativo',
       link: 'https://www.youtube.com/watch?v=XGSPIaLtJ-M',
     },
@@ -362,7 +362,8 @@ export default {
         'https://es.slideshare.net/slideshow/spanish-technical-report-cmmi-v-1-3-26416661/26416661',
     },
     {
-      referencia: 'Humphrey, W. S. (2017). Introducción al PSP. Recuperado de',
+      referencia:
+        'Humphrey, W. S. (2017). <em>Introducción al PSP.</em> Recuperado de',
       link: 'https://www.uv.mx/personal/asumano/files/2010/07/psp.pdf',
     },
   ],

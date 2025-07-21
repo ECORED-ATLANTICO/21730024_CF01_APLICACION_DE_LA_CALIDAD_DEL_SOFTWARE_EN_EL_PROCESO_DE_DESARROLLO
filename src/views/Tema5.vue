@@ -73,7 +73,7 @@
         .col-lg-10.mb-2.mx-auto
           .titulo-sexto.bg-11.mb-4
               h5 Tabla 2. 
-              span Características y subatributos de calidad del software según el modelo ISO/IEC 9126
+              span Características y subatributos de calidad del <em>software</em> según el modelo ISO/IEC 9126
           
           table.style01
             caption Fuente: 

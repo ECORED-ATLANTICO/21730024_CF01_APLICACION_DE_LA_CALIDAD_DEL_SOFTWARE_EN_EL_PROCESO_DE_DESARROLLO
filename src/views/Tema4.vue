@@ -62,10 +62,12 @@
 
               p.mb-0
                 b Herramientas
-              p.mb-0 - Entrevistas y encuestas abiertas.
-              p.mb-0 - Evaluaciones heurísticas según Nielsen.
-              p.mb-0 - Estudios de caso.
-              p.mb-0 - Grupos focales.
+              <ul class="bullets">
+                <li> Entrevistas y encuestas abiertas.</li>
+                <li> Evaluaciones heurísticas según Nielsen.</li>
+                <li> Estudios de caso.</li>
+                <li> Grupos focales.</li>
+              </ul>
 
 
             
@@ -90,10 +92,12 @@
 
                 p.mb-0
                   b Herramientas:
-                p.mb-0 - <em>Google Analytics</em>.
-                p.mb-0 - <em>Tests</em> A/B.
-                p.mb-0 - Métricas de rendimiento.
-                p.mb-0 - <em>Software</em> de monitoreo de usabilidad.
+                <ul class="bullets">
+                  <li><em>Google Analytics</em>.</li>
+                  <li><em>Tests</em> A/B.</li>
+                  <li>Métricas de rendimiento.</li>
+                  <li><em>Software</em> de monitoreo de usabilidad.</li>
+                </ul>
             
             .col-md-8.col-xl-4.mb-3
               figure
