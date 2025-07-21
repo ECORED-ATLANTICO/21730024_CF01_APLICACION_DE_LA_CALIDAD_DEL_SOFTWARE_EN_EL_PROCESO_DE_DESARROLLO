@@ -72,8 +72,7 @@
         .col-lg-10.mb-2.mx-auto
           .titulo-sexto.bg-11.mb-4
               h5 Tabla 3. 
-              span
-                i Divisiones del modelo <em>SQuaRE</em> y sus contenidos principales
+              span Divisiones del modelo <em>SQuaRE</em> y sus contenidos principales
           
           table.style01
             caption Fuente: 

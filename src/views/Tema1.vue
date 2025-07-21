@@ -28,7 +28,7 @@
       
       div.mb-5
         div.mb-5(data-aos="fade-right")
-          h3.position-relative#t_1_1 1.1	Factores clave: análisis, pruebas, código limpio, refactorización
+          h3.position-relative#t_1_1 1.1	Factores clave: análisis, pruebas, código limpio y refactorización
             img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='')
 
         p.mb-4 El proceso de aplicación de la calidad parte de la realización de un análisis riguroso que permite identificar requerimientos y posibles fallos en etapas tempranas. La ejecución de pruebas sistemáticas garantiza que el 
@@ -39,14 +39,13 @@
           .col-lg-10.mb-2.mx-auto
             .titulo-sexto.bg-11.mb-4
                 h5 Tabla 1. 
-                span
-                  i Factores clave en la aplicación de calidad en el desarrollo de software 
+                span Factores clave en la aplicación de calidad en el desarrollo de software 
             
             table.style01
               caption Fuente: 
                 span Sena (2025).
               thead.bg02
-                tr.text-white
+                tr
                   th Factor
                   th Descripción
               tbody
@@ -78,34 +77,34 @@
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/tema1/img_02.png", alt="alt").m-auto
         .col-lg-12.col-xl-8.mb-2
-          SlyderF.custom.mb-5(columnas="col-lg-4 col-xl-4")
-            .tarjeta.tarjeta--slyder.p-4.bg-secundario-20
-              .row.justify-content-center
-                .col-8.flex.flex.row.gap-3
-                  img.w-auto.mx-auto(src='@/assets/curso/temas/tema1/img_03.svg', alt='Imagen Decorativa')
-                  h4.text-center.mb-0 Calidad interna:
-              p.text-center.mb-0 mide atributos como modularidad o cobertura de pruebas.
-
-            .tarjeta.tarjeta--slyder.p-4.bg-secundario-20
-              .row.justify-content-center
-                .col-8.bg-04.flex.flex.row.gap-3
-                  img.w-auto.mx-auto(src='@/assets/curso/temas/tema1/img_03.svg', alt='Imagen Decorativa')
-                  h4.text-center.mb-0 Calidad externa:
-              p.text-center.mb-0 evalúa resultados tangibles, como tiempo de respuesta o tasa de errores.
-
-            .tarjeta.tarjeta--slyder.p-4.bg-secundario-20
-              .row.justify-content-center
-                .col-8.bg-04.flex.flex.row.gap-3
-                  img.w-auto.mx-auto(src='@/assets/curso/temas/tema1/img_03.svg', alt='Imagen Decorativa')
-                  h4.text-center.mb-0 Contexto de uso: 
-              p.text-center.mb-0 considera factores como dispositivos móviles o conexiones lentas en zonas rurales.
+          .row 
+            .col-12.col-lg-4.mb-4.col-md-6.d-flex
+              .tarjeta.tarjeta--slyder.p-4.bg-secundario-20
+                .row.justify-content-center
+                  .col-8.flex.flex.row.gap-3
+                    img.w-auto.mx-auto(src='@/assets/curso/temas/tema1/img_03.svg', alt='Imagen Decorativa')
+                    h4.text-center.mb-0 Calidad interna:
+                p.text-center.mb-0 mide atributos como modularidad o cobertura de pruebas.
+            .col-12.col-lg-4.mb-4.col-md-6.d-flex
+              .tarjeta.tarjeta--slyder.p-4.bg-secundario-20
+                .row.justify-content-center
+                  .col-8.bg-04.flex.flex.row.gap-3
+                    img.w-auto.mx-auto(src='@/assets/curso/temas/tema1/img_03.svg', alt='Imagen Decorativa')
+                    h4.text-center.mb-0 Calidad externa:
+                p.text-center.mb-0 evalúa resultados tangibles, como tiempo de respuesta o tasa de errores.
+            .col-12.col-lg-4.mb-4.col-md-6.d-flex
+              .tarjeta.tarjeta--slyder.p-4.bg-secundario-20
+                .row.justify-content-center
+                  .col-8.bg-04.flex.flex.row.gap-3
+                    img.w-auto.mx-auto(src='@/assets/curso/temas/tema1/img_03.svg', alt='Imagen Decorativa')
+                    h4.text-center.mb-0 Contexto de uso: 
+                p.text-center.mb-0 considera factores como dispositivos móviles o conexiones lentas en zonas rurales.
 
 
       .col-lg-10.mb-4
         .titulo-sexto.mb-4
           h5 Figura 1. 
-          span
-            i Interrelación entre calidad, interna, calidad externa y en uso
+          span Interrelación entre calidad, interna, calidad externa y en uso
 
         figure.mb-4
           img(src='@/assets/curso/temas/tema1/img_04.svg', alt='Se detalla en la figura: Calidad interna, Calidad externa, Contexto de uso, PRODUCTO DE SOFTWARE Alineado con requisitos del usuario.').mx-auto

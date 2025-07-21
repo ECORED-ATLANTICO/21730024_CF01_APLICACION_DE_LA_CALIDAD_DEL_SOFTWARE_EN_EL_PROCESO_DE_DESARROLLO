@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Fundamentos y procesos en calidad de <em>software</em>',
     Description:
-      'Este componente formativo aborda fundamentos teóricos y prácticos de la calidad de <em>software</em>, integrando normas ISO/IEC 9126, 14598 y su transición a ISO/IEC 25000. Incluye métricas básicas, factores de calidad, ciclo de vida del software, aplicación de estándares (PSP, TSP, CMMI, GQM) y modelos de procesos para garantizar productos confiables, eficientes y alineados con las expectativas del cliente.',
+      'Este componente formativo aborda fundamentos teóricos y prácticos de la calidad de <em>software</em>, integrando normas ISO/IEC 9126, 14598 y su transición a ISO/IEC 25000. Incluye métricas básicas, factores de calidad, ciclo de vida del <em>software</em>, aplicación de estándares (PSP, TSP, CMMI, GQM) y modelos de procesos para garantizar productos confiables, eficientes y alineados con las expectativas del cliente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -42,7 +42,7 @@ export default {
           {
             numero: '1.1',
             titulo:
-              'Factores clave: análisis, pruebas, código limpio, refactorización',
+              'Factores clave: análisis, pruebas, código limpio y refactorización',
             hash: 't_1_1',
           },
           {
@@ -57,7 +57,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Ciclo de vida del software',
+        titulo: 'Ciclo de vida del <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -77,7 +77,7 @@ export default {
         nombreRuta: 'tema3',
         numero: '3',
         titulo:
-          'Transición de las Normas ISO/IEC 9126 e ISO/IEC 14598 a ISO/IEC 25000',
+          'Transición de las normas ISO/IEC 9126 e ISO/IEC 14598 a ISO/IEC 25000',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -96,7 +96,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Medición de la Calidad del software',
+        titulo: 'Medición de la calidad del <em>software</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -143,7 +143,7 @@ export default {
           {
             numero: '6.2',
             titulo:
-              'Procesos para desarrolladores, usuarios finales, avaladores',
+              'Procesos para desarrolladores, usuarios finales y avaladores',
             hash: 't_6_2',
           },
         ],
@@ -224,7 +224,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CFA1_21730024_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -242,14 +242,15 @@ export default {
     {
       tema: 'Modelo CMMI',
       referencia:
-        'SEI. (2010). Modelo CMMI para Desarrollo v1.3. <em>Carnegie Mellon University</em>',
+        'SEI. (2010). <em>Modelo CMMI para Desarrollo v1.3.</em> <em>Carnegie Mellon University</em>',
       tipo: 'Guía técnica',
       link:
         'https://es.slideshare.net/slideshow/spanish-technical-report-cmmi-v-1-3-26416661/26416661',
     },
     {
       tema: 'PSP y TSP',
-      referencia: '<em>Humphrey, W. S.</em> (2017). Introducción al PSP.',
+      referencia:
+        '<em>Humphrey, W. S.</em> (2017). <em>Introducción al PSP.</em>',
       tipo: 'Libro/PDF',
       link: 'downloads/psp.pdf',
     },
@@ -319,7 +320,7 @@ export default {
     {
       termino: 'CMMI <em>(Capability Maturity Model Integration)</em>',
       significado:
-        'modelo que evalúa y mejora procesos de desarrollo de software mediante niveles de madurez.',
+        'modelo que evalúa y mejora procesos de desarrollo de <em>software</em> mediante niveles de madurez.',
     },
     {
       termino: 'GQM <em>(Goal Question Metric)</em>',
@@ -340,23 +341,23 @@ export default {
   referencias: [
     {
       referencia:
-        'Abud Figueroa, M. (2000). Calidad en la Industria del <em>Software</em>. La Norma ISO-9126. Recuperado de',
+        'Abud Figueroa, M. (2000). <em>Calidad en la Industria del <em>Software</em>. La Norma ISO-9126. Recuperado de',
       link:
         'https://repositorio.utp.edu.co/server/api/core/bitstreams/1bb30bc9-250c-4764-8366-27b1e6ed2ef1/content',
     },
     {
       referencia:
-        'Garzás, J. (2012). Cómo estandarizar la evaluación de la calidad <em>software</em>... la ISO 9126 y la ISO 25000. Recuperado de:',
+        'Garzás, J. (2012). <em>Cómo estandarizar la evaluación de la calidad software</em>... la ISO 9126 y la ISO 25000. Recuperado de:',
       link: 'http://www.javiergarzas.com/2012/10/iso-9126-iso-25000-2.html',
     },
     {
       referencia:
-        'ISO/IEC. (2014). ISO/IEC 25000:2014 – Ingeniería de sistemas y <em>software</em> – Requisitos y evaluación de la calidad de sistemas y <em>software</em> (<em>SQuaRE</em>). Ginebra: Organización Internacional de Normalización (ISO).',
+        'ISO/IEC. (2014). <em>ISO/IEC 25000:2014 – Ingeniería de sistemas y <em>software</em> – Requisitos y evaluación de la calidad de sistemas y <em>software</em> (<em>SQuaRE</em>).</em> Ginebra: Organización Internacional de Normalización (ISO).',
       link: '',
     },
     {
       referencia:
-        'Instituto de Ingeniería del <em>Software</em> (SEI). (2010). Modelo CMMI para desarrollo v1.3: Guía para la integración de procesos y la mejora de productos [Presentación de diapositivas]. <em>Carnegie Mellon University.</em> Recuperado de',
+        'Instituto de Ingeniería del <em>Software</em> (SEI). (2010). <em>Modelo CMMI para desarrollo v1.3: Guía para la integración de procesos y la mejora de productos</em> [Presentación de diapositivas]. <em>Carnegie Mellon University.</em> Recuperado de',
       link:
         'https://es.slideshare.net/slideshow/spanish-technical-report-cmmi-v-1-3-26416661/26416661',
     },

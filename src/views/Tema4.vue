@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Medición de la Calidad del 
+      h1 Medición de la calidad del 
         i software
 
     div.tarjeta-horz
@@ -62,10 +62,10 @@
 
               p.mb-0
                 b Herramientas
-              p.mb-0 - Entrevistas y encuestas abiertas
-              p.mb-0 - Evaluaciones heurísticas según Nielsen
-              p.mb-0 - Estudios de caso
-              p.mb-0 - Grupos focales
+              p.mb-0 - Entrevistas y encuestas abiertas.
+              p.mb-0 - Evaluaciones heurísticas según Nielsen.
+              p.mb-0 - Estudios de caso.
+              p.mb-0 - Grupos focales.
 
 
             
@@ -90,10 +90,10 @@
 
                 p.mb-0
                   b Herramientas:
-                p.mb-0 - <em>Google Analytics</em>
-                p.mb-0 - Tests A/B
-                p.mb-0 - Métricas de rendimiento 
-                p.mb-0 - <em>Software</em> de monitoreo de usabilidad
+                p.mb-0 - <em>Google Analytics</em>.
+                p.mb-0 - <em>Tests</em> A/B.
+                p.mb-0 - Métricas de rendimiento.
+                p.mb-0 - <em>Software</em> de monitoreo de usabilidad.
             
             .col-md-8.col-xl-4.mb-3
               figure

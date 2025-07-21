@@ -69,8 +69,7 @@
     .col-lg-10.mb-4.mx-auto
       .titulo-sexto.mb-4
         h5 Figura 2. 
-        span
-          i Ciclo de vida del software
+        span Ciclo de vida del software
 
       figure.mb-4
         img(src='@/assets/curso/temas/tema2/img_06.svg', alt='Se detalla en la figura del ciclo de vida del software las siguientes fases: Definición de necesidades, análisis, diseño, codificación, pruebas, validación, mantenimiento y evolución.').mx-auto

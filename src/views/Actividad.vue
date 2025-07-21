@@ -20,7 +20,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software EAGLE</em> .',
+        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software EAGLE</em> .',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -51,7 +51,7 @@ export default {
         {
           id: 2,
           texto:
-            'ISO/IEC 25000 (<em>SQuaRE</em>) integra y actualiza los estándares de ISO/IEC 9126 e ISO/IEC 14598 en un marco unificado.?',
+            'ISO/IEC 25000 (<em>SQuaRE</em>) integra y actualiza los estándares de ISO/IEC 9126 e ISO/IEC 14598 en un marco unificado.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [

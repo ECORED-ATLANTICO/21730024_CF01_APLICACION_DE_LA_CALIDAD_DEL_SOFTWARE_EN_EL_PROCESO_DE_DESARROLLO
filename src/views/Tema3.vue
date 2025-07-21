@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Transición de las Normas ISO/IEC 9126 e ISO/IEC 14598 a ISO/IEC 25000
+      h1 Transición de las normas ISO/IEC 9126 e ISO/IEC 14598 a ISO/IEC 25000
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12.mb-2
@@ -120,11 +120,11 @@
     .row
       .col-lg-10.mb-4.mx-auto
         .titulo-sexto.mb-4
-          h5 Figura 2. 
-          span
-            i Evolución hacia <em>SQuaRE</em>
+          h5 Figura 3. 
+          span Evolución hacia <em>SQuaRE</em>
         figure.mb-4
-          img(src='@/assets/curso/temas/tema3/img_11.svg', alt='Se detalla la evolución hacia SQuaRE actualmente, 9126: Calidad del producto. 1 – Modelo de calidad. 2 – Métricas externas. 3 – Métricas internas. 4 – Métricas de calidad en uso 14598: evaluación del producto. 1 – Resumen general. 2 – Planificación y gestión. 3 – Proceso para desarrolladores. 4 – Proceso para compradores. 5 – Proceso para evaluadores. 6 – Módulos de evaluación SQuaRE 2500n: gestión de calidad. 25000 – Guía de SQuaRE. 25001 – Planificación y Gestión. 2501n: modelo de calidad. 25010 – Guía y modelo de calidad. 2502n: medidas de calidad. 25020 – Guía y modelo de referencia. 25021 – Medidas primitivas. 25022 – Medidas internas. 25023 – Medidas externas. 25024 – Medidas de calidad en uso 2503n: requisitos de calidad. 25030 – Guía y requisitos de calidad. 2504n: evaluación de calidad. 25040 – Guía y resumen de evaluación. 25041 – Módulos de evaluación. 25042 – Proceso para desarrolladores. 25043 – Proceso para compradores. 25044 – Proceso para evaluadores.').mx-auto
+          img(src='@/assets/curso/temas/tema3/img_11.svg', alt='Se detalla la evolución hacia SQuaRE actualmente, 9126: Calidad del producto. 1 – Modelo de calidad. 2 – Métricas externas. 3 – Métricas internas. 4 – Métricas de calidad en uso 14598: evaluación del producto. 1 – Resumen general. 2 – Planificación y gestión. 3 – Proceso para desarrolladores. 4 – Proceso para compradores. 5 – Proceso para evaluadores. 6 – Módulos de evaluación SQuaRE 2500n: gestión de calidad. 25000 – Guía de SQuaRE. 25001 – Planificación y Gestión. 2501n: modelo de calidad. 25010 – Guía y modelo de calidad. 2502n: medidas de calidad. 25020 – Guía y modelo de referencia. 25021 – Medidas primitivas. 25022 – Medidas internas. 25023 – Medidas externas. 25024 – Medidas de calidad en uso 2503n: requisitos de calidad. 25030 – Guía y requisitos de calidad. 2504n: evaluación de calidad. 25040 – Guía y resumen de evaluación. 25041 – Módulos de evaluación. 25042 – Proceso para desarrolladores. 25043 – Proceso para compradores. 25044 – Proceso para evaluadores.').mx-auto.d-none.d-md-block
+          img(src='@/assets/curso/temas/tema3/img_11m.svg', alt='Se detalla la evolución hacia SQuaRE actualmente, 9126: Calidad del producto. 1 – Modelo de calidad. 2 – Métricas externas. 3 – Métricas internas. 4 – Métricas de calidad en uso 14598: evaluación del producto. 1 – Resumen general. 2 – Planificación y gestión. 3 – Proceso para desarrolladores. 4 – Proceso para compradores. 5 – Proceso para evaluadores. 6 – Módulos de evaluación SQuaRE 2500n: gestión de calidad. 25000 – Guía de SQuaRE. 25001 – Planificación y Gestión. 2501n: modelo de calidad. 25010 – Guía y modelo de calidad. 2502n: medidas de calidad. 25020 – Guía y modelo de referencia. 25021 – Medidas primitivas. 25022 – Medidas internas. 25023 – Medidas externas. 25024 – Medidas de calidad en uso 2503n: requisitos de calidad. 25030 – Guía y requisitos de calidad. 2504n: evaluación de calidad. 25040 – Guía y resumen de evaluación. 25041 – Módulos de evaluación. 25042 – Proceso para desarrolladores. 25043 – Proceso para compradores. 25044 – Proceso para evaluadores.').mx-auto.d-block.d-md-none
           figcaption 
             b Fuente: 
             | SENA, 2025.

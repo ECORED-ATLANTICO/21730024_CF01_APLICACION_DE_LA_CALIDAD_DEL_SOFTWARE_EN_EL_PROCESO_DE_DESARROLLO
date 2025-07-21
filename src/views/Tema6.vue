@@ -60,7 +60,7 @@
       separador 
 
       div.mb-5(data-aos="fade-right")
-        h3.position-relative#t_6_2 6.2	Procesos para desarrolladores, usuarios finales, avaladores
+        h3.position-relative#t_6_2 6.2 Procesos para desarrolladores, usuarios finales y avaladores
           img.w-auto.pt-2(src='@/assets/curso/temas/border_title.svg', alt='Imagen decorativa')
 
 
