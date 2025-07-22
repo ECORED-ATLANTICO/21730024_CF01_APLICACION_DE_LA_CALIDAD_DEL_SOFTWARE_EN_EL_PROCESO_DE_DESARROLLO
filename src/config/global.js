@@ -256,9 +256,10 @@ export default {
     },
     {
       tema: 'Ciclo de Vida del <em>Software</em>',
-      referencia: 'SENA. (2017). <em>MaterialRAP2.docx</em>',
+      referencia:
+        'Software y Algo Más. (2025). <em>Cap 9. Entendiendo el ciclo de vida del software.</em> YouTube.',
       tipo: 'Video educativo',
-      link: 'https://www.youtube.com/watch?v=XGSPIaLtJ-M',
+      link: 'https://www.youtube.com/watch?v=5LmJAdwcTOo',
     },
   ],
   glosario: [
