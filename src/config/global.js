@@ -242,7 +242,7 @@ export default {
     {
       tema: 'Modelo CMMI',
       referencia:
-        'SEI. (2010). <em>Modelo CMMI para Desarrollo v1.3.</em> <em>Carnegie Mellon University</em>',
+        'SEI. (2010). <em>Modelo CMMI para desarrollo v1.3.</em> <em>Carnegie Mellon University</em>',
       tipo: 'Guía técnica',
       link:
         'https://es.slideshare.net/slideshow/spanish-technical-report-cmmi-v-1-3-26416661/26416661',
@@ -255,9 +255,9 @@ export default {
       link: 'downloads/psp.pdf',
     },
     {
-      tema: 'Ciclo de Vida del <em>Software</em>',
+      tema: 'Ciclo de vida del <em>software</em>',
       referencia:
-        'Software y Algo Más. (2025). <em>Cap 9. Entendiendo el ciclo de vida del software.</em> YouTube.',
+        'Software y algo más. (2025). <em>Cap 9. Entendiendo el ciclo de vida del software.</em> YouTube.',
       tipo: 'Video educativo',
       link: 'https://www.youtube.com/watch?v=5LmJAdwcTOo',
     },
