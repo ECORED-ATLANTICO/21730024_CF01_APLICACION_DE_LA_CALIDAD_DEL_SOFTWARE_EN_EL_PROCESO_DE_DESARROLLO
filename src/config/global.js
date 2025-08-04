@@ -274,7 +274,7 @@ export default {
         'capacidad de un producto de <em>software</em> para desarrollar el comportamiento de un sistema de forma que satisfaga las necesidades del usuario en condiciones reales de uso.',
     },
     {
-      termino: 'Calidad en uso:',
+      termino: 'Calidad en uso',
       significado:
         'grado en que un producto satisface objetivos con efectividad, eficiencia y satisfacción en un contexto específico.',
     },

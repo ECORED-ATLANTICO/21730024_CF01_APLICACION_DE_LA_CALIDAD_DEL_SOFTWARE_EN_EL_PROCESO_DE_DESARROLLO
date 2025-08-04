@@ -70,7 +70,7 @@
       
       p En la práctica, la calidad del 
         i software 
-         se evalúa a través de dos perspectivas principales: la calidad interna, que se centra en las características del código y su estructura (por ejemplo, la eficiencia y mantenibilidad), y la calidad externa, que considera la experiencia del usuario, el rendimiento y la seguridad en el entorno de uso. La integración de ambos enfoques en el proceso de desarrollo permite ajustar la aplicación de técnicas de revisión, auditoría y pruebas, garantizando que el producto se adecúe a las necesidades planteadas en su contexto operativo.
+        | se evalúa a través de dos perspectivas principales: la calidad interna, que se centra en las características del código y su estructura (por ejemplo, la eficiencia y mantenibilidad), y la calidad externa, que considera la experiencia del usuario, el rendimiento y la seguridad en el entorno de uso. La integración de ambos enfoques en el proceso de desarrollo permite ajustar la aplicación de técnicas de revisión, auditoría y pruebas, garantizando que el producto se adecúe a las necesidades planteadas en su contexto operativo.
 
       .row.justify-content-center.align-items-center.mb-3.ordenar_tarjeta_lg.mb-5
         .col-md-6.col-lg-4.col-xl-4.mb-4.mb-md-2.col-10
