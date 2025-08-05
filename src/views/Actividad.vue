@@ -20,7 +20,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Reforzar la comprensión de la evolución de las normas ISO, los modelos de calidad (CMMI, PSP, TSP) y las métricas aplicables en el desarrollo de software, alineándose con los estándares internacionales.',
+        '<b> Objetivo:</b> reforzar la comprensión de la evolución de las normas ISO, los modelos de calidad (CMMI, PSP, TSP) y las métricas aplicables en el desarrollo de <em>software</em>, alineándose con los estándares internacionales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
